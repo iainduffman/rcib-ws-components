@@ -1,0 +1,43 @@
+.dealWrapper {
+    background: #fff;
+    padding: 32px;
+    box-shadow: 0 -2px 38px -1px rgba(0,0,0,.2);
+}
+
+#process button.uk-button.uk-button-primary.uk-button-large {
+    position: absolute;
+    left: 472px;
+}
+
+div#process {
+    margin-top: -32px;
+}
+
+/* Steps */
+
+.stepOne_Login {
+    background-image: url(https://gracious-hopper-3cedcd.netlify.com/static/_iconLogin-eb3f359d33c3ac356d6df5313db938ac.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 62px;
+    margin: auto;
+}
+
+.stepTwo_Login {
+    background-image: url(https://gracious-hopper-3cedcd.netlify.com/static/_iconSelectOffer-c0304eaa5f81a82ae468e2f981b103b6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 62px;
+    margin: auto;
+}
+
+.stepThree_Login {
+    background-image: url(https://gracious-hopper-3cedcd.netlify.com/static/_iconRedeem-5e79c89fc2d70b5a8cd5218158d5d512.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 62px;
+    margin: auto;
+}
