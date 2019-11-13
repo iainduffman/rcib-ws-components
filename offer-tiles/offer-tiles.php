@@ -48,7 +48,7 @@ if ( is_page() ) {
     <p>'.$description.'</p>';
 
     // Card CTA
-    echo '<a target="_blank" href="http://secure.rcib.co.uk/carquote.aspx?utm_campaign=CLUB"><button class="uk-width-1-1 uk-button uk-button-primary uk-button-large">More Info</button></a>';
+    echo '<a href="'.get_permalink().'"><button class="uk-width-1-1 uk-button uk-button-primary uk-button-large">More Info</button></a>';
 
     //
     echo '</div>
