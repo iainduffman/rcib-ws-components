@@ -25,6 +25,7 @@ $linkURL = get_field('link_url');
 
 <?php if( get_field('link_text') ): ?>
 <a href="<?php echo $linkURL ?>" target="_blank" style="margin-right: 6px;" class="uk-button uk-button-primary uk-button-large"><?php echo $linkText ?></a>
+
 <?php endif; ?>
 </div>
 </div>
