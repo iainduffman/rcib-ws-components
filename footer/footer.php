@@ -26,15 +26,26 @@ wp_nav_menu( array(
 'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
 'container_class' => 'test' ) ); 
 ?>
-</div>
 
+<!-- Social -->
+<div class="uk-width-1-1 uk-margin-top">
+<ul class="social-icons">
+<li><a href="" class="uk-icon-link" uk-icon="facebook"></a></li>
+<li><a href="" class="uk-icon-link" uk-icon="twitter"></a></li>
+<li><a href="" class="uk-icon-link" uk-icon="instagram"></a></li>
+<li><a href="" class="uk-icon-link" uk-icon="youtube"></a></li>
+</ul>
+</div>
+<!--   -->
+
+</div>
 </div>
 </div>
 
 <div uk-grid="" class="uk-child-width-auto@m uk-flex-middle uk-grid">
 <div class="uk-margin-auto">
 
-<div class="uk-width-medium-1-1 copyright-text">
+<div class="uk-width-medium-1-1 copyright-text uk-margin-top">
 <p>This Website is made available to you by Right Choice Insurance Brokers Limited. Registered Office: St James House, 27-43 Eastern Road, Romford, Essex, RM1 3NH. Registered in England & Wales No. 6423401. EuroRescue is arranged and administered by Right Choice Insurance Brokers Limited which is authorised and regulated by the Financial Conduct Authority under reference number 475620.</p>
 
 <div class="uk-hidden uk-width-medium-1-1">
