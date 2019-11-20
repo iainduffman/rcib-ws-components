@@ -1,0 +1,9 @@
+/* Twitter Feed styles */
+
+.twitter-feed, .twitter-feed .uk-container {
+    background: #191919;
+}
+
+.ctf-item {
+    background-color: #282828 !important;
+}
