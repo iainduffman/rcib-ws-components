@@ -1,5 +1,5 @@
 <!-- Stylesheet -->
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/components/footer/footer.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../../components/footer/footer.css" type="text/css" media="screen" />
 <!--  -->
 
 <div class="footer uk-section uk-section-primary tm-section-primary uk-section-xlarge uk-padding-remove-bottom uk-padding-remove-top" style="background: #323232;">

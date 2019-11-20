@@ -17,10 +17,15 @@ $linkURL = get_field('link_url');
 <div class="uk-overlay-primary uk-position-cover"></div>
 <div class="uk-overlay uk-position-center uk-light uk-text-center">
 <div class="uk-grid">
+<div class="uk-container">
 <div class="uk-width-1-1" style="margin: auto;">
 <h3><?php echo $heading ?></h3>
 <h1 class="uk-text-bold massive-text"><?php echo $subline ?></h1>
+
+<?php if( get_field('link_text') ): ?>
 <a href="<?php echo $linkURL ?>" target="_blank" style="margin-right: 6px;" class="uk-button uk-button-primary uk-button-large"><?php echo $linkText ?></a>
+<?php endif; ?>
+</div>
 </div>
 </div>
 </div>

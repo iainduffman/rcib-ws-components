@@ -7,7 +7,7 @@
 <li><a href="#">Why Join?</a></li>
 <li><a href="#">How It Works</a></li>
 </ul>
-<div class="dealWrapper">
+<div class="dealWrapper offerContainer">
 <div class="uk-grid-match uk-grid-column-medium uk-grid-row-medium uk-child-width-1-3@s uk-text-center" uk-grid>
 
 <?php
@@ -33,18 +33,21 @@ if ( is_page() ) {
      while ( $tyler_query->have_posts() ) : $tyler_query->the_post();
 
      $description = get_field('description');
+     $offerType = get_field('offer_type');
+     $featimg = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full')[0];
 
     //
     echo '<div class="uk-first-column"><div class="uk-card uk-card-default uk-card-body">
     <div>';
 
     // Card Hero Image
-    echo '<div class="cardHero uk-hidden" style="background-image: url(&quot;//images.ctfassets.net/6jd9q0n722ij/7ebrl87konZtEPXb9r46kV/98583756f5790ee6ba16b697b799a7c6/new_york.jpg&quot;); background-size: cover;"></div><div class="cardContents uk-padding-remove-top">
-    <img class="productImage" src="//images.ctfassets.net/6jd9q0n722ij/5usF7rsdUI6JS3XfqbzN9X/5963e10f789289421fe50bc8216fa701/_logoRCIB.jpg">';
+    echo '
+    <span class="uk-badge">'.$offerType.' Offer</span>
+    <div class="cardHero uk-hidden" style="background-image: url('.$featimg.';); background-size: cover;"></div><div class="cardContents uk-padding-remove-top">
+    <img class="productImage" src="'.$featimg.'">';
 
     // Card Contents
     echo '<h3>'.get_the_title().'</h3>
-    <span class="uk-badge">Cashback Offer</span>
     <p>'.$description.'</p>';
 
     // Card CTA
