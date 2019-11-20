@@ -27,13 +27,27 @@ wp_nav_menu( array(
 'container_class' => 'test' ) ); 
 ?>
 
+
 <!-- Social -->
-<div class="uk-width-1-1 uk-margin-top">
+<div uk-grid class="uk-grid-medium uk-flex-middle uk-flex-center uk-grid uk-grid-stack uk-margin-top">
+
 <ul class="social-icons">
+
+<?php if( get_field('facebook', 'options') ): ?>
 <li><a href="" class="uk-icon-link" uk-icon="facebook"></a></li>
+<?php endif; ?>
+
+<?php if( get_field('twitter', 'options') ): ?>
 <li><a href="" class="uk-icon-link" uk-icon="twitter"></a></li>
+<?php endif; ?>
+
+<?php if( get_field('instagram', 'options') ): ?>
 <li><a href="" class="uk-icon-link" uk-icon="instagram"></a></li>
+<?php endif; ?>
+
+<?php if( get_field('youtube', 'options') ): ?>
 <li><a href="" class="uk-icon-link" uk-icon="youtube"></a></li>
+<?php endif; ?>
 </ul>
 </div>
 <!--   -->
