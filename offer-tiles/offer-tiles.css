@@ -1,11 +1,13 @@
 .uk-card span.uk-badge {
     background: #303080;
-    position: absolute;
+    /* position: absolute; */
     margin: auto;
     padding: 16px;
-    top: -15px;
-    left: 50%;
-    margin-left: -56px;
+    position: relative;
+    top: -12px;
+    /* top: -15px; */
+    /* left: 50%; */
+    /* margin-left: -56px; */
 }
 
 /* .dealWrapper span.uk-badge {
@@ -34,4 +36,8 @@
 
 .cardContents {
     padding: 32px;
+}
+
+.offerContainer h3 {
+    min-height: 66px;
 }

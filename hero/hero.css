@@ -1,1 +1,18 @@
 /* Hero CSS */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 959px) {
+
+    #header-hero {
+        height: 556px;
+    }
+
+    .content-left, .content-right {
+        padding-right: 0px;
+    }
+
+}
