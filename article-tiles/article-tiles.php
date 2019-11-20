@@ -4,9 +4,9 @@ $popular = get_sub_field('popular_tag');
 $popularflag = the_field('cover_price');
 ?>
 
-<div id="product-tiles" class="uk-section uk-section-muted">
+<div id="product-tiles" class="uk-section uk-section-muted uk-padding-remove-top">
     <div class="uk-container">
-    <!-- <h1 class="uk-heading uk-margin-medium-bottom" style="text-align: center !important;">Our Breakdown Cover Products</h1> -->
+    <h1 class="uk-heading uk-margin-medium-bottom" style="text-align: center !important;">Latest Features</h1>
 
            
     <div class="uk-flex uk-flex-wrap uk-background-muted">
