@@ -52,3 +52,19 @@ ul.uk-nav-sub li {
 .footer-links .join-now-cta {
     display: none;
 }
+
+@media (min-width: 320px) and (max-width: 959px) {
+
+.footer-links ul {width: 100% !important;}
+
+.footer-links .uk-nav {
+    display: block;
+}
+
+li.uk-parent, li.uk-parent a {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+}
+
