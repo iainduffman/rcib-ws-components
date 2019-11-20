@@ -34,19 +34,19 @@ wp_nav_menu( array(
 <ul class="social-icons">
 
 <?php if( get_field('facebook', 'options') ): ?>
-<li><a href="<?php the_field('facebook', 'options'); ?>" class="uk-icon-link" uk-icon="facebook"></a></li>
+<li><a target="_blank"  href="<?php the_field('facebook', 'options'); ?>" class="uk-icon-link" uk-icon="facebook"></a></li>
 <?php endif; ?>
 
 <?php if( get_field('twitter', 'options') ): ?>
-<li><a href="<?php the_field('twitter', 'options'); ?>" class="uk-icon-link" uk-icon="twitter"></a></li>
+<li><a target="_blank"  href="<?php the_field('twitter', 'options'); ?>" class="uk-icon-link" uk-icon="twitter"></a></li>
 <?php endif; ?>
 
 <?php if( get_field('instagram', 'options') ): ?>
-<li><a href="<?php the_field('instagram', 'options'); ?>" class="uk-icon-link" uk-icon="instagram"></a></li>
+<li><a target="_blank"  href="<?php the_field('instagram', 'options'); ?>" class="uk-icon-link" uk-icon="instagram"></a></li>
 <?php endif; ?>
 
 <?php if( get_field('youtube', 'options') ): ?>
-<li><a href="<?php the_field('youtube', 'options'); ?>" class="uk-icon-link" uk-icon="youtube"></a></li>
+<li><a target="_blank" href="<?php the_field('youtube', 'options'); ?>" class="uk-icon-link" uk-icon="youtube"></a></li>
 <?php endif; ?>
 </ul>
 </div>
