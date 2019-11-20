@@ -22,9 +22,7 @@ wp_nav_menu( array(
 'container_id' => 'footermenu',
 'container' => 'div',
 'menu_class' => 'footermenu',
-'menu_id' => 'footerid',
-'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-'container_class' => 'test' ) ); 
+'menu_id' => 'footerid') ); 
 ?>
 
 
