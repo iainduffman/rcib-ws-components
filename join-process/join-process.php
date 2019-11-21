@@ -39,4 +39,10 @@
 </div>
 </div>
 
-<button class="uk-button uk-button-primary uk-button-large">Join Club RCIB Today</button></div></div></div>
+
+<div class="uk-width-1-1 uk-text-center" style="margin: auto;">
+
+<button class="uk-button uk-button-primary uk-button-large">Join Club RCIB Today</button>
+
+</div>
+</div></div></div>
