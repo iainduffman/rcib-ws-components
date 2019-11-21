@@ -3,7 +3,8 @@
 
 
 
-<div class="uk-inline transparentSection uk-margin-top"><div class="uk-container uk-text-center"><h1 class="massiveHeading">Not a member yet?</h1><h3 class="massiveSubHeading">Join today! Club RCIB is so easy to use - get started in just 3 steps  </h3></div></div>
+<div class="uk-inline transparentSection uk-margin-top"><div class="uk-container uk-text-center">
+<h1 class="massiveHeading">Not a member yet?</h1><h3 class="massiveSubHeading">Join today! Club RCIB is so easy to use - get started in just 3 steps</h3></div></div>
 <div class="uk-container">
 <div id="process" class="dealContainer uk-container uk-padding-large uk-padding-remove-bottom uk-padding-remove-left uk-padding-remove-right uk-padding-remove-top"><div class="dealWrapper">
     
