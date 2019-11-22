@@ -1,10 +1,15 @@
 <!-- Stylesheet -->
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/components/join-process/join-process.css" type="text/css" media="screen" />
 
-
+<?php
+$heading = get_sub_field('heading');
+$subline = get_sub_field('sub_heading');
+?>
 
 <div class="uk-inline transparentSection uk-margin-top"><div class="uk-container uk-text-center">
-<h1 class="massiveHeading">Not a member yet?</h1><h3 class="massiveSubHeading">Join today! Club RCIB is so easy to use - get started in just 3 steps</h3></div></div>
+<h1 class="massiveHeading"><?php echo $heading ?></h1>
+<h3 class="massiveSubHeading"><?php echo $subline ?></h3>
+</div></div>
 <div class="uk-container">
 <div id="process" class="dealContainer uk-container uk-padding-large uk-padding-remove-bottom uk-padding-remove-left uk-padding-remove-right uk-padding-remove-top"><div class="dealWrapper">
     
@@ -42,7 +47,6 @@
 
 
 <div class="uk-width-1-1 uk-text-center" style="margin: auto;">
-
 <button class="uk-button uk-button-primary uk-button-large">Join Club RCIB Today</button>
 
 </div>
