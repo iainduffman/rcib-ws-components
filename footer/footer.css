@@ -11,6 +11,10 @@
     height: auto;
 }
 
+.footer ul.social-icons.header {
+    display: none;
+}
+
 .footer-links .uk-button {
     display: none;
 }

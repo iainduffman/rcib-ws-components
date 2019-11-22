@@ -4,7 +4,7 @@ $featimg = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'large'
 $blockTitle = get_sub_field('title');
 ?>
 
-<div class="uk-section with-divider">
+<div id="articleBlock" class="uk-section with-divider">
         <div class="uk-container">
         
         <h1 class="uk-heading-divider uk-margin-medium-bottom"><?php echo $blockTitle ?></h1>
