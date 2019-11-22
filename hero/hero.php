@@ -17,7 +17,7 @@ $linkURL = get_field('link_url');
 <img src="<?php echo $featimg ?>" alt="" uk-cover="" class="uk-cover" style="height: 647px; width: 1680px;">
 <div class="uk-overlay-primary uk-position-cover"></div>
 <div class="uk-overlay uk-position-center uk-light uk-text-center">
-<div class="uk-grid">
+<div class="uk-grid hero-content">
 <div class="uk-container">
 <div class="uk-width-1-1" style="margin: auto;">
 <h3><?php echo $heading ?></h3>

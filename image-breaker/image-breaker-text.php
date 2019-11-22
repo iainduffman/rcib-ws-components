@@ -1,3 +1,8 @@
+<!-- Stylesheet -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/components/image-breaker/image-breaker.css" type="text/css" media="screen" />
+<!--  -->
+
+
 <?php
 $image = get_sub_field('image');
 $title = get_sub_field('title');
@@ -15,7 +20,7 @@ $description = get_sub_field('description');
 </h1>
 <p class="uk-text-large">
 <?php echo $description ?></p>
-<a href="http://deveurorescue.azurewebsites.net/join.aspx?coverType=1" target="_blank" style="margin-right: 6px;" class="tm-button-default uk-button uk-button-default uk-icon uk-width-1-1">Learn More</a>
+<a href="#" target="_blank" class="tm-button-default uk-button uk-button-default uk-icon uk-width-1-1 uk-button-primary">Learn More</a>
 </div>
 </div>
 </div>

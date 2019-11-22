@@ -6,6 +6,9 @@
 
 .social-icons li {
     padding: 6px;
+    float: left;
+    border: 0px;
+    height: auto;
 }
 
 .footer-links .uk-button {
