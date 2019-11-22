@@ -40,7 +40,7 @@ wp_nav_menu( array(
 <?php endif; ?>
 
 <?php if( get_field('instagram', 'options') ): ?>
-<li><a target="_blank"  href="<?php the_field('instagram', 'options'); ?>" class="uk-icon-link" uk-icon="icon: instagram; ratio: 1.5></a></li>
+<li><a target="_blank"  href="<?php the_field('instagram', 'options'); ?>" class="uk-icon-link" uk-icon="icon: instagram; ratio: 1.5"></a></li>
 <?php endif; ?>
 
 <?php if( get_field('youtube', 'options') ): ?>
