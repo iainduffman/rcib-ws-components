@@ -34,6 +34,7 @@ if ( is_page() ) {
 
      $description = get_field('description');
      $offerType = get_field('offer_type');
+     $offerAmount = get_field('amount');
      $featimg = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full')[0];
 
     //
@@ -42,7 +43,7 @@ if ( is_page() ) {
 
     // Card Hero Image
     echo '
-    <span class="uk-badge">'.$offerType.' Offer</span>
+    <span class="uk-badge">£'.$offerAmount.' '.$offerType.' Offer</span>
     <div class="cardHero uk-hidden" style="background-image: url('.$featimg.';); background-size: cover;"></div><div class="cardContents uk-padding-remove-top">
     <img class="productImage" src="'.$featimg.'">';
 
