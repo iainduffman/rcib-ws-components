@@ -9,6 +9,10 @@ h1.uk-text-bold.massive-text {
     margin-top: -12px;
 }
 
+#header-hero h1 {
+    text-align: center !important;
+}
+
 @media (min-width: 320px) and (max-width: 959px) {
 
     #header-hero {
