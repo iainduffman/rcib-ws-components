@@ -6,4 +6,7 @@
 
 .ctf-item {
     background-color: #282828 !important;
+    padding: 8px !important;
+    margin-bottom: 18px !important;
+    border-radius: 3px;
 }
