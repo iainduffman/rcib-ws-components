@@ -2,11 +2,16 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/components/offer-tiles/offer-tiles.css" type="text/css" media="screen" />
 
 <div class="dealContainer uk-container uk-padding-large uk-padding-remove-bottom uk-padding-remove-left uk-padding-remove-right uk-padding-remove-top">
+
 <ul class="tabs uk-child-width-expand" uk-tab>
 <li class="uk-active"><a href="#">Latest Offers</a></li>
-<li><a href="#">Why Join?</a></li>
-<li><a href="#">How It Works</a></li>
+<li><a href="#">How Does It Work?</a></li>
+<li><a href="#">Our Brands</a></li>
 </ul>
+
+<ul class="uk-switcher uk-margin">
+<li>
+
 <div class="dealWrapper offerContainer">
 <div class="uk-grid-match uk-grid-column-medium uk-grid-row-medium uk-child-width-1-3@s uk-text-center" uk-grid>
 
@@ -65,4 +70,36 @@ if ( is_page() ) {
     wp_reset_postdata();
     ?>
 
-</div></div></div>
+
+</li>
+
+<li>
+<div class="dealWrapper offerContainer">
+<?php
+$my_postid = 725;//This is page id or post id
+$content_post = get_post($my_postid);
+$content = $content_post->post_content;
+$content = apply_filters('the_content', $content);
+$content = str_replace(']]>', ']]&gt;', $content);
+echo $content;
+?>
+</div>
+</li>
+
+<li>
+<div class="dealWrapper offerContainer">
+<?php
+$my_postid = 689;//This is page id or post id
+$content_post = get_post($my_postid);
+$content = $content_post->post_content;
+$content = apply_filters('the_content', $content);
+$content = str_replace(']]>', ']]&gt;', $content);
+echo $content;
+?>
+</div>
+</li>
+</ul>
+
+</div></div>
+
+</div>
