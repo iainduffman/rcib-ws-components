@@ -24,6 +24,10 @@
     border: 2px solid #1e87f0;
 } */
 
+.dealWrapper.offerContainer {
+    margin-top: -20px;
+}
+
 .uk-card.uk-card-default.uk-card-body {
     padding: 0px;
 }

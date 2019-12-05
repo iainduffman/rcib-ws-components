@@ -5,7 +5,7 @@
 
 <ul class="tabs uk-child-width-expand" uk-tab>
 <li class="uk-active"><a href="#">Latest Offers</a></li>
-<li><a href="#">How Does It Work?</a></li>
+<li><a href="#">How Does Is Club RCIB?</a></li>
 <li><a href="#">Our Brands</a></li>
 </ul>
 
@@ -75,8 +75,14 @@ if ( is_page() ) {
 
 <li>
 <div class="dealWrapper offerContainer">
+<h1 class="uk-margin-bottom uk-text-center" style="color: #303080;">
 <?php
-$my_postid = 725;//This is page id or post id
+$my_postid = 722;//This is page id or post id
+echo get_the_title($my_postid);
+?>
+</h1>
+<?php
+$my_postid = 722;//This is page id or post id
 $content_post = get_post($my_postid);
 $content = $content_post->post_content;
 $content = apply_filters('the_content', $content);
@@ -88,6 +94,12 @@ echo $content;
 
 <li>
 <div class="dealWrapper offerContainer">
+<h1 class="uk-margin-bottom uk-text-center" style="color: #303080;">
+<?php
+$my_postid = 689;//This is page id or post id
+echo get_the_title($my_postid);
+?>
+</h1>
 <?php
 $my_postid = 689;//This is page id or post id
 $content_post = get_post($my_postid);
