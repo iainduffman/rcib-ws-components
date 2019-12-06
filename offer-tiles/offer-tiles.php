@@ -6,7 +6,7 @@
 <ul class="tabs uk-child-width-expand" uk-tab>
 <li class="uk-active"><a href="#">Latest Offers</a></li>
 <li><a href="#">What Is Club RCIB?</a></li>
-<li><a href="#">Our Brands</a></li>
+<!-- <li><a href="#">Our Brands</a></li> -->
 </ul>
 
 <ul class="uk-switcher uk-margin">
