@@ -1,13 +1,23 @@
+
+/* Relative positioning
 .uk-card span.uk-badge {
     background: #303080;
-    /* position: absolute; */
     margin: auto;
     padding: 16px;
     position: relative;
     top: -12px;
-    /* top: -15px; */
-    /* left: 50%; */
-    /* margin-left: -56px; */
+} 
+*/
+
+
+.uk-card span.uk-badge {
+    background: #303080;
+    margin: auto;
+    padding: 16px;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    margin-left: -70px;
 }
 
 /* .dealWrapper span.uk-badge {
