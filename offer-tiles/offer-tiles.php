@@ -47,8 +47,14 @@ if ( is_page() ) {
     <div>';
 
     // Card Hero Image
+    echo '';?>
+
+    <?php if( get_field('amount') ): ?>
+        <span class="uk-badge">£<?php the_field('amount'); ?> <?php the_field('offer_type'); ?> Offer</span>
+    <?php endif; ?>
+
+    <?php
     echo '
-    <span class="uk-badge">£'.$offerAmount.' '.$offerType.' Offer</span>
     <div class="cardHero uk-hidden" style="background-image: url('.$featimg.';); background-size: cover;"></div><div class="cardContents uk-padding-remove-top">
     <img class="productImage" src="'.$featimg.'">';
 
